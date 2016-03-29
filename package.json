@@ -1,0 +1,22 @@
+{
+  "name": "poetrify",
+  "version": "1.0.0",
+  "description": "A maximification library that converts JavaScript to poetry",
+  "main": "index.js",
+  "bin": {
+    "poetrify": "index.js"
+  },
+  "keywords": [
+    "maximification",
+    "poetry"
+  ],
+  "scripts": {
+    "test": "node index.js test.js -o=bar.js"
+  },
+  "author": "Joe Lepper",
+  "license": "MIT",
+  "dependencies": {
+    "esprima": "^2.7.2",
+    "yargs": "^4.3.2"
+  }
+}
