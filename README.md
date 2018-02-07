@@ -48,5 +48,5 @@ Pull requests welcome.
 
 ## Should I use this in production.
 
-No.
+Yes.
 
